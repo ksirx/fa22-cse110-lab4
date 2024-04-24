@@ -93,7 +93,7 @@ discountedPrices([100, 200, 300], 0.5);*/
 discountedPrices([100, 200, 300], 0.5); */
 
 /*Part 2 Q3*/
-function discountedPrices(prices, discount) {
+/*function discountedPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;
 
@@ -110,5 +110,160 @@ function discountedPrices(prices, discount) {
     return discounted;
 }
 
-discountedPrices([100, 200, 300], 0.5);
+discountedPrices([100, 200, 300], 0.5);*/
 
+/*Part 2 Q4*/
+/*function discountedPrices(prices, discount) {
+    var discounted = [];
+    var finalPrice = 0;
+
+    for (var i = 0; i < prices.length; i++) {
+        var discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    //console.log(i);
+    //console.log(discountedPrice);
+    //console.log(finalPrice);
+
+    console.log(discounted);
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q5*/
+/*function discountedPrices(prices, discount) {
+    let discounted = [];
+    let finalPrice = 0;
+
+    for (let i = 0; i < prices.length; i++) {
+        let discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    console.log(i);
+    //console.log(discountedPrice);
+    //console.log(finalPrice);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q6*/
+/*function discountedPrices(prices, discount) {
+    let discounted = [];
+    let finalPrice = 0;
+
+    for (let i = 0; i < prices.length; i++) {
+        let discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    //console.log(i);
+    console.log(discountedPrice);
+    //console.log(finalPrice);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q7*/
+/*function discountedPrices(prices, discount) {
+    let discounted = [];
+    let finalPrice = 0;
+
+    for (let i = 0; i < prices.length; i++) {
+        let discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    //console.log(i);
+    //console.log(discountedPrice);
+    console.log(finalPrice);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q8*/
+/*function discountedPrices(prices, discount) {
+    let discounted = [];
+    let finalPrice = 0;
+
+    for (let i = 0; i < prices.length; i++) {
+        let discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    //console.log(i);
+    //console.log(discountedPrice);
+    //console.log(finalPrice);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q9*/
+/*function discountedPrices(prices, discount) {
+    const discounted = [];
+    const length = prices.length;
+
+    for (let i = 0; i < length; i++) {
+        const discountedPrice = prices[i] * (1 - discount);
+        discounted.push(discountedPrice);
+    }
+
+    console.log(i);
+    //console.log(length);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q10*/
+/*function discountedPrices(prices, discount) {
+    const discounted = [];
+    const length = prices.length;
+
+    for (let i = 0; i < length; i++) {
+        const discountedPrice = prices[i] * (1 - discount);
+        discounted.push(discountedPrice);
+    }
+
+    //console.log(i);
+    console.log(length);
+
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q11*/
+function discountedPrices(prices, discount) {
+    const discounted = [];
+    const length = prices.length;
+
+    for (let i = 0; i < length; i++) {
+        const discountedPrice = prices[i] * (1 - discount);
+        discounted.push(discountedPrice);
+    }
+
+    //console.log(i);
+    //console.log(length);
+
+    console.log(discounted);
+    return discounted;
+}
+
+discountedPrices([100, 200, 300], 0.5);
