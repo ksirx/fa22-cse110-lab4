@@ -110,11 +110,11 @@ The difference between the `==` and `===` operators are that the `==` doesn't co
 
 ### Part 2 - Questionn 16: Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)
 
-
-
 # Functions
 
+### Part 2 - Question 17: If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
 
+Using these two functions together will return the list `[2,4,6]`. The `modifyArray` function iterates through all of a inputted array and applies the `callback` to every element and puts it into a `newArr` which is returned. The `doSomething` function just applies a multiplier to an integer and returns the new value. This is used as the `callback` and results in all of the input array being returned with the values multiplied by 2.
 
-# serInterval(), setTimeout(), clearTimeout()
+# setInterval(), setTimeout(), clearTimeout()
 

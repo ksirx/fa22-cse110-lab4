@@ -297,7 +297,6 @@ console.log(false + null);
 console.log('3' + undefined);
 console.log('3' - undefined);*/
 
-
 /*Part 2 Q14*/
 /*console.log('2' > 1);
 console.log('2' < '12');
@@ -306,4 +305,18 @@ console.log(2 === '2');
 console.log(true == 2);
 console.log(true === Boolean(2));*/
 
+/*Part 2 Q17*/
+function modifyArray(array, callback) {
+    const newArr = [];
+    for (let i = 0; i < array.length; i++) {
+        newArr.push(callback(array[i]));
+    }
+    return newArr;
+}
+
+function doSomething(num) {
+    return num * 2;
+}
+
+console.log(modifyArray([1,2,3], doSomething));
 
