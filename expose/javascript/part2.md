@@ -127,7 +127,11 @@ COMPLETED
 ### Part 2 - Question 19: What is the output of the above code? (This should be in your part2.md)
 
 The output of the code will be
+
  `1`
+
  `4`
+
  `3`
+ 
  `2`
