@@ -84,10 +84,15 @@ H. `NaN` because while the subtraction forces it to be integer subtraction and c
 ### Part 2 - Question 14: Comparison
 
 A. `true` because 
+
 B. `false` because 
+
 C. `true` because
+
 D. `false` because
+
 E. `false` because
+
 F. `true` because
 
 # Loops
