@@ -48,8 +48,14 @@ This function will return `[50, 100, 150]` because the array reference to `disco
 # Data Types
 
 ### Part 2 - Question 12: Given the above Object, write the notation for:  (These should be in your part2.md)
-- Accessing the value of the name property in the student object
-- Accessing the value of the Grad Year property in the student object
+A) Accessing the value of the name property in the student object
+
+`student.name`
+
+B) Accessing the value of the Grad Year property in the student object
+
+``
+
 - Calling the function for the greeting property in the student object
 - Accessing the name property of the object in the Favorite Teacher property in student
 - Access index zero in the array of the courseLoad property of the student object
