@@ -269,7 +269,7 @@ discountedPrices([100, 200, 300], 0.5);*/
 discountedPrices([100, 200, 300], 0.5);*/
 
 /*Part 2 Q12*/
-let student = {
+/*let student = {
     name: 'Sarah',
     major: 'Computer Science',
     'Grad Year': '2022',
@@ -285,4 +285,24 @@ console.log(student.name);
 console.log(student['Grad Year']);
 student.greeting();
 console.log(student["Favorite Teacher"].name);
-console.log(student.course[0]);
+console.log(student.course[0]);*/
+
+/*Part 2 Q13*/
+/*console.log('3' + 2);
+console.log('3' - 2);
+console.log(3 + null);
+console.log('3' + null);
+console.log(true + 3);
+console.log(false + null);
+console.log('3' + undefined);
+console.log('3' - undefined);*/
+
+
+/*Part 2 Q14*/
+console.log('2' > 1);
+console.log('2' < '12');
+console.log(2 == '2');
+console.log(2 === '2');
+console.log(true == 2);
+console.log(true === Boolean(2));
+
