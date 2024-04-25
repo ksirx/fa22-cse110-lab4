@@ -1,3 +1,5 @@
+# A litte More of a Challenge...
+
 ### Part 2-Question 1: ^^^ What will happen at line 12 and why? If the code causes an error, explain why. ^^^
 
 It will return the number `3`. This is because in the for loop, it will when the iterator i is the same as the length as the input list. The input is length 3 so this means that it will break out at `i = 3` and since it is a var, the value is saved outside of the function and is printed.
@@ -42,3 +44,24 @@ Here, it will return the value `3`. This is because initially in the function, l
 ### Part 2 - Question 11: ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
 
 This function will return `[50, 100, 150]` because the array reference to `discounted` is a constant, but can still be modified. This means that the function will continue as normal and the value returned will be the same as question 8 and 4.
+
+# Data Types
+
+### Part 2 - Question 12: Given the above Object, write the notation for:  (These should be in your part2.md)
+- Accessing the value of the name property in the student object
+- Accessing the value of the Grad Year property in the student object
+- Calling the function for the greeting property in the student object
+- Accessing the name property of the object in the Favorite Teacher property in student
+- Access index zero in the array of the courseLoad property of the student object
+
+
+
+# Basic Operators & Type Conversion
+
+# Loops
+
+
+# Functions
+
+# serInterval(), setTimeout(), clearTimeout()
+
