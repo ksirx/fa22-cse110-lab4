@@ -306,7 +306,7 @@ console.log(true == 2);
 console.log(true === Boolean(2));*/
 
 /*Part 2 Q17*/
-function modifyArray(array, callback) {
+/*function modifyArray(array, callback) {
     const newArr = [];
     for (let i = 0; i < array.length; i++) {
         newArr.push(callback(array[i]));
@@ -318,5 +318,7 @@ function doSomething(num) {
     return num * 2;
 }
 
-console.log(modifyArray([1,2,3], doSomething));
+console.log(modifyArray([1,2,3], doSomething));*/
+
+
 
