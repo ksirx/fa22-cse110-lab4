@@ -250,7 +250,7 @@ discountedPrices([100, 200, 300], 0.5);*/
 discountedPrices([100, 200, 300], 0.5);*/
 
 /*Part 2 Q11*/
-function discountedPrices(prices, discount) {
+/*function discountedPrices(prices, discount) {
     const discounted = [];
     const length = prices.length;
 
@@ -266,4 +266,23 @@ function discountedPrices(prices, discount) {
     return discounted;
 }
 
-discountedPrices([100, 200, 300], 0.5);
+discountedPrices([100, 200, 300], 0.5);*/
+
+/*Part 2 Q12*/
+let student = {
+    name: 'Sarah',
+    major: 'Computer Science',
+    'Grad Year': '2022',
+    greeting: function() { console.log('Hello!'); },
+    'Favorite Teacher': {
+        name: 'Thomas Powell',
+        course: 'CSE 110'
+    },
+    course: ['CSE 110','CSE 134','VIS 41']
+};
+
+console.log(student.name);
+console.log(student['Grad Year']);
+student.greeting();
+console.log(student["Favorite Teacher"].name);
+console.log(student.course[0]);

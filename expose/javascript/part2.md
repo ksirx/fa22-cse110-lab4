@@ -54,13 +54,19 @@ A) Accessing the value of the name property in the student object
 
 B) Accessing the value of the Grad Year property in the student object
 
-``
+`student['Grad Year']`
 
-- Calling the function for the greeting property in the student object
-- Accessing the name property of the object in the Favorite Teacher property in student
-- Access index zero in the array of the courseLoad property of the student object
+C) Calling the function for the greeting property in the student object
 
+`student.greeting()`
 
+D) Accessing the name property of the object in the Favorite Teacher property in student
+
+`student["Favorite Teacher"].name`
+
+E) Access index zero in the array of the courseLoad property of the student object
+
+`student.course[0]`
 
 # Basic Operators & Type Conversion
 
