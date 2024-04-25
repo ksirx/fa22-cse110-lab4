@@ -90,17 +90,21 @@ H) `NaN` because while the subtraction forces it to be integer subtraction and c
 
 ### Part 2 - Question 14: Comparison
 
-A) `true` because 
+A) `true` because the value of 2 is greater than the value of 1 so it returns true.
 
-B) `false` because 
+B) `false` because it compares the leading values to see if equivalent, and 2 is larger than 1, it thinks '12' is smaller than '2' and returns false.
 
-C) `true` because
+C) `true` because it looks if the characters are the same value, ignoring if the types are different and since they are both 2, it returns true.
 
-D) `false` because
+D) `false` because this also take into account the type and since one is an integer and the other is a string, it will find that they are not equal to each other.
 
-E) `false` because
+E) `false` because true's value is 1 and that is differnet from the value of 2, it returns false as it finds that they are different from one another.
 
-F) `true` because
+F) `true` because `Boolean(2)` converts into `true` boolean value and since this is eqivalent in value and type to the first `true`, it returns true.
+
+### Part 2 - Question 15: Explain the difference between the == and === operators.
+
+The difference between the `==` and `===` operators are that the `==` doesn't consider the types and converts it to just the symbols whereas `===` will take into consideration if the types are different and won't auto convert to make them the same.
 
 # Loops
 
