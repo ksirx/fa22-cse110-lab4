@@ -34,15 +34,17 @@ Safari/537.36
 
 7. When was the file last modified?
 
-`Thu, 15 Sep 2022`
-
-`22:44:30 GMT`
+```
+Thu, 15 Sep 2022
+22:44:30 GMT
+```
 
 8. What was the Content-Type of the file?
 
-`application/json;`
-
-`charset=utf-8`
+```
+application/json;
+charset=utf-8
+```
 
 Navigate to the Initiator tab now and answer the last question
 
