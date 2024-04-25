@@ -72,28 +72,28 @@ E) Access index zero in the array of the courseLoad property of the student obje
 
 ### Part 2 - Question 13: Arithmetic
 
-A. `32` because since the string 3 is first, it is being treated as string concatination so the 2 is being treated as a string creating 32 once the operation is completed.
-B. `1` because the subtraction converts the string 3 to a int. From there the 2 is subtracted and the one is returned.
-C. `3` because when doing integer addtion, null counts as 0 and when adding to 3, the number 3 will be returned from the operation.
-D. `3null` because when doing string concatination on the string 3, null is treated as a string leading to it just concatenating together.
-E. `4` because true is treated as the integer 1 and when added to 3, it will result in the value of 4 being returned.
-F. `0` because the false is being treated as the integer 0 and with integer addition of null which has no value, it will return the value of 0.
-G. `3undefined` because with string 3, it is being treated as string concatenation. So, undefined is being treated as a string and concatenated with three and being returned.
-H. `NaN` because while the subtraction forces it to be integer subtraction and converts the 3 to an integer, you cannot subtract an integer by an undefined type so NaN is returned. 
+A) `32` because since the string 3 is first, it is being treated as string concatination so the 2 is being treated as a string creating 32 once the operation is completed.
+B) `1` because the subtraction converts the string 3 to a int. From there the 2 is subtracted and the one is returned.
+C) `3` because when doing integer addtion, null counts as 0 and when adding to 3, the number 3 will be returned from the operation.
+D) `3null` because when doing string concatination on the string 3, null is treated as a string leading to it just concatenating together.
+E) `4` because true is treated as the integer 1 and when added to 3, it will result in the value of 4 being returned.
+F) `0` because the false is being treated as the integer 0 and with integer addition of null which has no value, it will return the value of 0.
+G) `3undefined` because with string 3, it is being treated as string concatenation. So, undefined is being treated as a string and concatenated with three and being returned.
+H) `NaN` because while the subtraction forces it to be integer subtraction and converts the 3 to an integer, you cannot subtract an integer by an undefined type so NaN is returned. 
 
 ### Part 2 - Question 14: Comparison
 
-A. `true` because 
+A) `true` because 
 
-B. `false` because 
+B) `false` because 
 
-C. `true` because
+C) `true` because
 
-D. `false` because
+D) `false` because
 
-E. `false` because
+E) `false` because
 
-F. `true` because
+F) `true` because
 
 # Loops
 
